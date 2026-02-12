@@ -1,56 +1,59 @@
 body {
-  background: pink;
   font-family: Arial, sans-serif;
   text-align: center;
-  margin-top: 80px;
+  background-color: #ff7eb3;
+  color: white;
+  height: 100vh;
+  margin: 0;
 }
 
-.container {
-  background: white;
-  width: 80%;
-  max-width: 500px;
-  margin: auto;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-}
+h1 { font-size: 50px; margin-top: 50px; text-shadow: 2px 2px 8px #000; }
+h2 { font-size: 28px; margin-bottom: 30px; text-shadow: 2px 2px 8px #000; }
 
-h1 {
-  color: red;
-  font-size: 28px;
-}
+.buttons { margin-bottom: 30px; }
 
-.cute-img {
-  width: 200px;
-  margin: 20px 0;
-}
-
-.buttons {
-  margin-top: 20px;
-}
-
-button {
-  font-size: 20px;
-  padding: 10px 25px;
+.btn {
+  padding: 15px 30px;
+  margin: 20px;
   border: none;
   border-radius: 15px;
+  font-size: 20px;
   cursor: pointer;
-  margin: 10px;
+  transition: 0.3s;
 }
 
-.yes {
-  background: red;
-  color: white;
-}
+.yes { background-color: #00ff99; color: black; }
+.no { background-color: #ff4d4d; color: white; }
 
-.no {
-  background: gray;
-  color: white;
+#videoContainer {
+  margin-top: 20px;
 }
 
 #message {
-  margin-top: 20px;
-  font-size: 22px;
-  color: darkred;
-  font-weight: bold;
+  font-size: 28px;
+  margin: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+}
+
+#songList {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#songList li { margin: 10px 0; font-size: 20px; }
+
+#songList li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff4d99;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+#songList li a:hover {
+  background-color: #ff1a75;
+  transform: scale(1.05);
 }

@@ -1,0 +1,56 @@
+body {
+  background: pink;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.container {
+  background: white;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: red;
+  font-size: 28px;
+}
+
+.cute-img {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.yes {
+  background: red;
+  color: white;
+}
+
+.no {
+  background: gray;
+  color: white;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 22px;
+  color: darkred;
+  font-weight: bold;
+}

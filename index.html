@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valentine Front Page 💖</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Valentine's Day 💖</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>💘 Happy Valentine's Day 💘</h1>
-  <h2>Will you be my Valentine? 😘</h2>
+  <div class="container">
+    <h1>💘 Happy Valentine's Day 💘</h1>
+    <h2>Will you be my Valentine? 😘</h2>
 
-  <!-- YES / NO buttons only -->
-  <div class="buttons">
-    <button class="btn yes" onclick="location.href='yes_no.html'">YES 😍</button>
-    <button class="btn no" onclick="location.href='yes_no.html'">NO 😜</button>
+    <div class="btn-box">
+      <button class="btn yes" onclick="goYes()">YES 😍</button>
+      <button class="btn no" id="noBtn">NO 😜</button>
+    </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
